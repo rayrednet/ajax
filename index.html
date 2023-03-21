@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rayssa Ravelia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/bebas-neue" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Submit Form with AJAX</title>
+
+    <!--css-->
+    <link href="style.css" rel="stylesheet">
+
+    <!--adding DNS JQUERY-->
+    <!--JQUERY CORE-->
+    <script src="https://code.jquery.com/jquery-3.6.4.js" 
+    integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" 
+    crossorigin="anonymous">
+    </script>
+    <!--JQUERY MOBILE-->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js" 
+    integrity="sha256-1PYCpx/EXA36KN1NKrK7auaTylVyk01D98R7Ccf04Bc=" 
+    crossorigin="anonymous"></script>
+    <!--JQUERY VALIDATION-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>  
+    <script src="js/main.js"></script>
+    
+</head>
+
+<body>
+  <div id="contact_form">
+      <form name="contact" action="">
+        <fieldset>
+          <div class="input-box">
+          <label for="name" id="name_label">Name</label>
+          <input type="text" name="name" id="name" minlength="3" placeholder="Your name here" class="text-input" required/>
+          </div>
+          
+          <div class="input-box">
+          <label for="email" id="email_label">Email</label>
+          <input type="email" name="email" id="email" placeholder="example@gmail.com" class="text-input"/>
+          </div>
+          
+          <div class="input-box">
+          <label for="phone" id="phone_label">Phone</label>
+          <input type="tel" name="phone" id="phone" class="text-input" placeholder="62XXXXXXXXX"/>
+          </div>
+          
+          <input type="submit" name="submit" class="button" id="submit_btn" value="Send" />
+        </fieldset>
+
+      </form>
+        <div class="greetings">
+        <h1><span>Contact</span> <br> <span>Us</span></h1>
+          <p>We are waiting to hear from you!</p>
+        </div>
+
+        
+      </div>
+
+      <!-- Start Footer Section -->
+      <footer class="footer-section">
+        <div class="border-top copyright">
+            <div class="row pt-4">
+                <div class="col-lg-6">
+                    <p class="mb-2 text-center text-lg-start">Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script>. 
+                        All Rights Reserved. &mdash; Designed with love by Rayssa Ravelia (5025211219)</a></p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+</body>
+</html>

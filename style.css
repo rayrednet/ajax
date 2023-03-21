@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  
+  div#contact_form {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  div.input-box {
+    display: flex;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  div.input-box label {
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+    width: 20%;
+  }
+
+  div.input-box input {
+    font-size: 1.5rem;
+    border: 1px solid #ffffff;
+    padding: 4px 8px;
+    flex: 1;
+    color: #fff;
+    border-radius: 10px;
+    background-image: url('img/contact-form-bg.png');
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  input.button {
+    font-size: 1.5rem;
+    background: linear-gradient(to bottom right, #38b4aa, #3d6fbb);
+    color: white;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 4px 40px;
+    border-radius: 30px;
+  }
+  
+  input.button:hover {
+    background: linear-gradient(to bottom right, #4273b3, #4ab16c);
+  }
+  
+  h1 {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  h1 span:first-child {
+    background: linear-gradient(to right, #0077c2, #00c4cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h1 span:last-child {
+    background: linear-gradient(to right, #0077c2, #00c4cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  div.greetings {
+    text-align: center;
+    font-size: 1.2rem;
+    background-image: url('img/bg.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  div.input-box input.error {
+      border: 2px dashed red;
+      background: #fee;
+  }
+  div.input-box label.error {
+      color: red;
+      font-size: 1rem;
+      text-align: right;
+      width: 100%;
+      margin: 10px 0;
+  }
+  
+  .footer-section {
+    padding: 50px 0;
+    background: #ffffff; }
+    .footer-section .relative {
+      position: relative; }
+    .footer-section .border-top {
+      border-color: #dce5e4; }
+      .footer-section .border-top.copyright {
+        font-size: 14px !important; }
+
+#message {
+  background-image:url('img/all-bg.png');
+  background-size: cover;
+  width: auto;
+  border-radius: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.form-submitted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url('img/all-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
